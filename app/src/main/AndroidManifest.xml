@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gextontask">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyExternalTest.MainActivityTest">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SaveImageInDatabase.ShowImageActivity" />
+        <activity android:name=".SaveImageInDatabase.MainActivityimage">
+
+        </activity>
+        <activity android:name=".ExternalDatabasefile.MainActivityexternal">
+
+
+        </activity>
+        <activity android:name=".Pharmacy.SearchByFormula" />
+        <activity android:name=".Pharmacy.SearchMethods" />
+        <activity android:name=".Pharmacy.FurtherAction" />
+        <activity android:name=".Pharmacy.TestListActivity" />
+        <activity android:name=".Pharmacy.EnterdataActivity" />
+        <activity android:name=".Pharmacy.WelcomePageActivity">
+
+
+        </activity>
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".ShowListView" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

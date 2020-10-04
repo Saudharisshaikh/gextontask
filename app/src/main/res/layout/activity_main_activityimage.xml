@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaveImageInDatabase.MainActivityimage">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagename"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:hint="Enter image name"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/register"
+        android:layout_below="@+id/imagename"
+        android:id="@+id/images"
+        android:scaleType="centerCrop"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/images"
+        android:text="Save Image"
+        android:layout_marginTop="3dp"
+        android:textSize="15sp"
+        android:background="@drawable/button"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/buttonName"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/buttonName"
+        android:text="Save Image"
+        android:layout_marginTop="3dp"
+        android:id="@+id/showImage"
+        android:textSize="15sp"
+        android:background="@drawable/button"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+</RelativeLayout>

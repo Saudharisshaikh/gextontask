@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+        android:id="@+id/UpdateData"
+        android:title="Update"
+        app:showAsAction="never"
+        />
+
+    <item
+
+        android:id="@+id/DeleteDat"
+        android:title="Delete"
+        app:showAsAction="never"
+        />
+
+
+    <item
+
+        android:id="@+id/Search"
+        android:title="Search"
+        app:showAsAction="never"
+        >
+
+
+        <menu>
+
+            <item
+
+                android:id="@+id/Search_byname"
+                android:title="Searchbyname"
+                app:showAsAction="never"
+               />
+            <item
+
+                android:id="@+id/Search_byformula"
+                android:title="Searchbyformula"
+                app:showAsAction="never"
+                />
+
+            <item
+
+                android:id="@+id/Search_bycompany"
+                android:title="Searchbycompany"
+                app:showAsAction="never"
+                />
+
+        </menu>
+
+    </item>
+
+
+</menu>

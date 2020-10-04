@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pharmacy.FurtherAction">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/inputs"
+        android:padding="10dp"
+        android:hint="Id"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/listshowId"
+        android:visibility="invisible"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/inputs"
+        android:padding="10dp"
+        android:hint="Name"
+        android:textStyle="bold"
+        android:layout_below="@+id/listshowId"
+        android:textSize="15sp"
+        android:id="@+id/listshowName"
+        android:visibility="invisible"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/inputs"
+        android:padding="10dp"
+        android:hint="Formula"
+        android:textStyle="bold"
+        android:layout_below="@+id/listshowName"
+        android:textSize="15sp"
+        android:id="@+id/listshowFormula"
+        android:visibility="invisible"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/inputs"
+        android:padding="10dp"
+        android:hint="Company"
+        android:textStyle="bold"
+        android:layout_below="@+id/listshowFormula"
+        android:textSize="15sp"
+        android:id="@+id/listshowCompany"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/listshowCompany"
+        android:layout_marginTop="10dp"
+        android:text="Delete"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/deleteButton"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/deleteButton"
+        android:layout_marginTop="15dp"
+        android:text="Update"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/updateButton"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/updateButton"
+        android:layout_marginTop="15dp"
+        android:text="Action"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/Actonbutton"
+        android:visibility="invisible"
+        />
+
+
+
+</RelativeLayout>
